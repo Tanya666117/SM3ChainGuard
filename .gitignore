@@ -1,0 +1,28 @@
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local dataset (do NOT upload)
+data/raw/
+
+# Optional large generated artifacts (uncomment if needed)
+# data/interim/
+# data/artifacts/
+# data/experiments/

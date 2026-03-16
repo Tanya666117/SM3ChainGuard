@@ -1,0 +1,282 @@
+{
+  "inputs": {
+    "clean_report": "data\\artifacts\\task1_verification_report.json",
+    "tamper_reports_dir": "data\\experiments\\tamper_benchmark\\reports",
+    "num_tamper_reports": 15
+  },
+  "core_metrics": {
+    "attack_detection_rate": 1.0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "specificity": 1.0,
+    "balanced_accuracy": 1.0,
+    "clean_false_positive_rate": 0.0,
+    "confusion_matrix_sample_level": {
+      "tp": 15,
+      "fp": 0,
+      "tn": 1,
+      "fn": 0
+    },
+    "frame_level_contextual": {
+      "contextual_detection_rate": 0.833333,
+      "accuracy": 0.84375,
+      "precision": 1.0,
+      "recall": 0.833333,
+      "f1_score": 0.909091,
+      "specificity": 1.0,
+      "balanced_accuracy": 0.916667,
+      "confusion_matrix": {
+        "tp": 3750,
+        "fp": 0,
+        "tn": 300,
+        "fn": 750
+      }
+    }
+  },
+  "tamper_frame_effect_stats": {
+    "mean_failed_ratio_per_attack": 0.833333,
+    "median_failed_ratio_per_attack": 0.833333,
+    "max_failed_ratio_per_attack": 0.833887,
+    "min_failed_ratio_per_attack": 0.832776
+  },
+  "localization_stats": {
+    "target_step_index": 50,
+    "mean_first_failed_step_index": 50.1333,
+    "median_first_failed_step_index": 50.0,
+    "mean_detection_delay_vs_target": 0.1333,
+    "mean_abs_localization_error": 0.1333
+  },
+  "four_dimension_results": {
+    "detection": {
+      "attack_detection_rate": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "specificity": 1.0,
+      "balanced_accuracy": 1.0,
+      "clean_false_positive_rate": 0.0
+    },
+    "localization": {
+      "mean_first_failed_step_index": 50.1333,
+      "median_first_failed_step_index": 50.0,
+      "mean_detection_delay_vs_target": 0.1333,
+      "mean_abs_localization_error": 0.1333
+    },
+    "robustness": {
+      "detection_rate_by_attack_family": {
+        "hash_bitflip": 1.0,
+        "rgb_content_tamper": 1.0,
+        "semantic_edit": 1.0,
+        "structural_edit": 1.0
+      },
+      "weak_tampering_sensitivity": 1.0,
+      "weak_tampering_total_attacks": 12,
+      "weak_tampering_detected_attacks": 12
+    },
+    "cost": {
+      "stage1_artifact_size_bytes": 42516889,
+      "chain_artifact_size_bytes": 384765,
+      "storage_overhead_ratio_chain_over_stage1": 0.00905,
+      "avg_chain_bytes_per_record": 1282.55
+    }
+  },
+  "mismatch_frequency": {
+    "aggregate": {
+      "count": 514,
+      "ratio_over_all_failed_frames": 0.137067
+    },
+    "annotation": {
+      "count": 4,
+      "ratio_over_all_failed_frames": 0.001067
+    },
+    "frame_index_map": {
+      "count": 502,
+      "ratio_over_all_failed_frames": 0.133867
+    },
+    "image": {
+      "count": 514,
+      "ratio_over_all_failed_frames": 0.137067
+    },
+    "previous_link": {
+      "count": 3738,
+      "ratio_over_all_failed_frames": 0.9968
+    },
+    "temporal_chain": {
+      "count": 3750,
+      "ratio_over_all_failed_frames": 1.0
+    },
+    "timestamp": {
+      "count": 503,
+      "ratio_over_all_failed_frames": 0.134133
+    }
+  },
+  "per_attack_rows": [
+    {
+      "attack_type": "aggregate_hash_bitflip",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "annotation_hash_bitflip",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "annotation_text_edit",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "camera_frame_index_edit",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "delete_one_record",
+      "detected": 1,
+      "total_records": 299,
+      "passed_records": 50,
+      "failed_records": 249,
+      "failed_ratio": 0.832776,
+      "first_failed_step_index": 51,
+      "detection_delay_vs_target": 1,
+      "abs_localization_error": 1
+    },
+    {
+      "attack_type": "duplicate_one_record",
+      "detected": 1,
+      "total_records": 301,
+      "passed_records": 50,
+      "failed_records": 251,
+      "failed_ratio": 0.833887,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "final_hash_bitflip",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "image_hash_bitflip",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "previous_hash_bitflip",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "reference_timestamp_edit",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "rgb_block_occlusion",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "rgb_gaussian_noise",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "rgb_jpeg_reencode_low_quality",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    },
+    {
+      "attack_type": "swap_adjacent_records",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 51,
+      "detection_delay_vs_target": 1,
+      "abs_localization_error": 1
+    },
+    {
+      "attack_type": "timestamp_hash_bitflip",
+      "detected": 1,
+      "total_records": 300,
+      "passed_records": 50,
+      "failed_records": 250,
+      "failed_ratio": 0.833333,
+      "first_failed_step_index": 50,
+      "detection_delay_vs_target": 0,
+      "abs_localization_error": 0
+    }
+  ]
+}

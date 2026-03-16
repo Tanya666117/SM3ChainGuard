@@ -1,0 +1,16 @@
+attack_type,detected,total_records,passed_records,failed_records,failed_ratio,first_failed_step_index,detection_delay_vs_target,abs_localization_error
+aggregate_hash_bitflip,1,300,50,250,0.833333,50,0,0
+annotation_hash_bitflip,1,300,50,250,0.833333,50,0,0
+annotation_text_edit,1,300,50,250,0.833333,50,0,0
+camera_frame_index_edit,1,300,50,250,0.833333,50,0,0
+delete_one_record,1,299,50,249,0.832776,51,1,1
+duplicate_one_record,1,301,50,251,0.833887,50,0,0
+final_hash_bitflip,1,300,50,250,0.833333,50,0,0
+image_hash_bitflip,1,300,50,250,0.833333,50,0,0
+previous_hash_bitflip,1,300,50,250,0.833333,50,0,0
+reference_timestamp_edit,1,300,50,250,0.833333,50,0,0
+rgb_block_occlusion,1,300,50,250,0.833333,50,0,0
+rgb_gaussian_noise,1,300,50,250,0.833333,50,0,0
+rgb_jpeg_reencode_low_quality,1,300,50,250,0.833333,50,0,0
+swap_adjacent_records,1,300,50,250,0.833333,51,1,1
+timestamp_hash_bitflip,1,300,50,250,0.833333,50,0,0

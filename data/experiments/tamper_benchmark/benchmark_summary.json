@@ -1,0 +1,156 @@
+{
+  "total_attacks": 15,
+  "detected_attacks": 15,
+  "rows": [
+    {
+      "attack_type": "image_hash_bitflip",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\image_hash_bitflip_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\image_hash_bitflip.json"
+    },
+    {
+      "attack_type": "timestamp_hash_bitflip",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\timestamp_hash_bitflip_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\timestamp_hash_bitflip.json"
+    },
+    {
+      "attack_type": "annotation_hash_bitflip",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\annotation_hash_bitflip_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\annotation_hash_bitflip.json"
+    },
+    {
+      "attack_type": "aggregate_hash_bitflip",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\aggregate_hash_bitflip_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\aggregate_hash_bitflip.json"
+    },
+    {
+      "attack_type": "final_hash_bitflip",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\final_hash_bitflip_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\final_hash_bitflip.json"
+    },
+    {
+      "attack_type": "previous_hash_bitflip",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\previous_hash_bitflip_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\previous_hash_bitflip.json"
+    },
+    {
+      "attack_type": "annotation_text_edit",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\annotation_text_edit_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\annotation_text_edit.json"
+    },
+    {
+      "attack_type": "reference_timestamp_edit",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\reference_timestamp_edit_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\reference_timestamp_edit.json"
+    },
+    {
+      "attack_type": "camera_frame_index_edit",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\camera_frame_index_edit_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\camera_frame_index_edit.json"
+    },
+    {
+      "attack_type": "swap_adjacent_records",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 51,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\swap_adjacent_records_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\swap_adjacent_records.json"
+    },
+    {
+      "attack_type": "delete_one_record",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 249,
+      "first_failed_step_index": 51,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\delete_one_record_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\delete_one_record.json"
+    },
+    {
+      "attack_type": "duplicate_one_record",
+      "attack_scope": "chain_artifact",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 251,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\duplicate_one_record_report.json",
+      "tampered_chain_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\tampered_chains\\duplicate_one_record.json"
+    },
+    {
+      "attack_type": "rgb_block_occlusion",
+      "attack_scope": "rgb_dataset",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\rgb_block_occlusion_report.json",
+      "tampered_chain_file": ""
+    },
+    {
+      "attack_type": "rgb_gaussian_noise",
+      "attack_scope": "rgb_dataset",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\rgb_gaussian_noise_report.json",
+      "tampered_chain_file": ""
+    },
+    {
+      "attack_type": "rgb_jpeg_reencode_low_quality",
+      "attack_scope": "rgb_dataset",
+      "target_step_index": 50,
+      "detected": 1,
+      "failed_records": 250,
+      "first_failed_step_index": 50,
+      "report_file": "C:\\Users\\23705\\Desktop\\SM3ChainGuard\\data\\experiments\\tamper_benchmark\\reports\\rgb_jpeg_reencode_low_quality_report.json",
+      "tampered_chain_file": ""
+    }
+  ]
+}
