@@ -133,19 +133,6 @@ Outputs:
 - `data/experiments/tamper_benchmark/per_attack_metrics.csv`
 - `data/experiments/tamper_benchmark/performance_metrics.md`
 
-### Step 6 - Generate paper-ready figures
-
-```powershell
-python scripts/generate_ieee_figures.py
-```
-
-Outputs:
-- `docs/figures/fig_attack_detection.png`
-- `docs/figures/fig_first_failed_step.png`
-- `docs/figures/fig_cascade_impact.png`
-- `docs/figures/fig_system_architecture.png`
-
----
 
 ## Common Optional Arguments
 
