@@ -152,29 +152,6 @@ Frequently used overrides:
 
 ---
 
-## Upload to GitHub (Without Dataset)
-
-### 1) Ensure large/raw data is ignored
-
-Keep dataset and generated local artifacts out of version control (see `.gitignore` in this repo).
-
-### 2) Initialize and commit
-
-```powershell
-git init
-git add .
-git commit -m "Initial commit: SM3ChainGuard pipeline and experiment scripts"
-```
-
-### 3) Create remote repository and push
-
-```powershell
-git branch -M main
-git remote add origin <YOUR_GITHUB_REPO_URL>
-git push -u origin main
-```
-
----
 
 ## Notes
 
