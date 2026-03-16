@@ -35,7 +35,6 @@ SM3ChainGuard/
 │  └─ simulation/                 # Tamper simulation
 ├─ scripts/                       # Reproducible experiment entry scripts
 ├─ data/                          # Local artifacts / experiment outputs (dataset not included)
-├─ docs/                          # Figures and documentation assets
 └─ requirements.txt
 ```
 
